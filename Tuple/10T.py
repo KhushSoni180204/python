@@ -1,0 +1,7 @@
+khush=(1,2,3,4,5,6)
+print(khush)
+a=int(input("Enter the value to append =>"))
+lol=list(khush)
+lol.append(a)
+khush=tuple(lol)
+print(khush)

@@ -1,0 +1,6 @@
+tuple1=((1,2,3),(4,5,6),(7,8,9))
+lol=list(tuple1)
+lol.reverse()
+print(lol[0][0],lol[1][0],lol[2][0])
+print(lol[0][1],lol[1][1],lol[2][1])
+print(lol[0][2],lol[1][2],lol[2][2])

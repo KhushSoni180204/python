@@ -1,0 +1,5 @@
+khush=(1,2,3,4,5,6,7)
+lol=list(khush)
+lol.reverse()
+khush=tuple(lol)
+print(khush)

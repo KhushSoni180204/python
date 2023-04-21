@@ -1,0 +1,11 @@
+import time
+current=time.localtime(time.time())
+print("Year:",current.tm_year)
+print("Month:",current.tm_mon)
+print("Day:",current.tm_mday)
+print("Hour:",current.tm_hour)
+print("Min:",current.tm_min)
+print("Sec:",current.tm_sec)
+print("Wday:",current.tm_wday)
+print("Yday:",current.tm_yday)
+print("isdst:",current.tm_isdst)

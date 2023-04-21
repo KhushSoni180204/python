@@ -1,0 +1,7 @@
+lmao=(1,2,3,4,5,6,7)
+print(lmao)
+a=int(input("Enter the value to remove => "))
+lol=list(lmao)
+lol.remove(a)
+lmao=tuple(lol)
+print(lmao)
